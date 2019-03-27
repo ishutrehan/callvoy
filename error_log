@@ -1,0 +1,12 @@
+[21-Jan-2019 20:18:35 UTC] PHP Fatal error:  Trait 'Illuminate\Auth\UserTrait' not found in /home/techo13/public_html/callvoy/protected/app/Models/User.php on line 13
+[21-Jan-2019 20:18:56 UTC] PHP Fatal error:  Trait 'Illuminate\Auth\UserTrait' not found in /home/techo13/public_html/callvoy/protected/app/Models/User.php on line 13
+[21-Jan-2019 20:19:31 UTC] PHP Fatal error:  Interface 'Illuminate\Auth\UserInterface' not found in /home/techo13/public_html/callvoy/protected/app/Models/User.php on line 11
+[21-Jan-2019 20:26:57 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Input as Input because the name is already in use in /home/techo13/public_html/callvoy/protected/app/Http/Controllers/UserController.php on line 16
+[21-Jan-2019 20:32:57 UTC] PHP Fatal error:  Interface 'Illuminate\Auth\UserInterface' not found in /home/techo13/public_html/callvoy/protected/app/Models/User.php on line 11
+[21-Jan-2019 23:27:32 UTC] PHP Fatal error:  Uncaught Error: Class 'GetStream\StreamLaravel\StreamLumenServiceProvider' not found in /home/techo13/public_html/callvoy/protected/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:638
+Stack trace:
+#0 /home/techo13/public_html/callvoy/protected/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(570): Illuminate\Foundation\Application->resolveProvider('GetStream\\Strea...')
+#1 /home/techo13/public_html/callvoy/protected/bootstrap/app.php(43): Illuminate\Foundation\Application->register('GetStream\\Strea...')
+#2 /home/techo13/public_html/callvoy/index.php(38): require_once('/home/techo13/p...')
+#3 {main}
+  thrown in /home/techo13/public_html/callvoy/protected/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 638
